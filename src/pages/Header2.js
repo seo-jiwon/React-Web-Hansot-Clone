@@ -8,7 +8,7 @@ function Header() {
                     <nav class="h-25 navbar navbar-expand-sm navbar-light justify-content-end">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                            <a class="nav-link" href="#"><h6>로그인   &nbsp;&nbsp;&nbsp;&nbsp; |</h6></a>
+                            <a class="nav-link" href="/signin"><h6>로그인   &nbsp;&nbsp;&nbsp;&nbsp; |</h6></a>
                             </li>
                             <li class="nav-item active">
                             <a class="nav-link" href="/signup"><h6>회원가입   &nbsp;&nbsp;&nbsp;&nbsp; |</h6></a>
@@ -21,7 +21,7 @@ function Header() {
                 </div>
 
                 <nav class="navbar navbar-expand-md bg-light navbar-light">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src={require('../images/logo.png')} alt="Chicago" />
                     </a>
 

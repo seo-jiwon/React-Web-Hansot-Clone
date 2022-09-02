@@ -1,29 +1,26 @@
 import * as React from 'react';
 import '../css/SignupCont1.css'
 import axios from 'axios';
+import { useForm } from "react-hook-form";
 import { useNavigate } from 'react-router-dom';
 
 function SignupCont1() {
 
-    const navigate = useNavigate();
+  const { handleSubmit } = useForm();
+  const navigate = useNavigate();
 
-    const signupSubmit = (e) => {
-        e.preventDefault();
-        const data = {
-          content : e.target.signup.value,
-        }
-
-        axios.post("http://localhost:5000/signup/signup", data)
-        .then(function(response){
-          console.log(response);
-          if(response.data.success){
-            alert("회원가이 완료되었습니다.");
-            navigate('/');
-          }
-        }).catch(function(error){
-          alert("회원가입 실패!" + error);
-        });
-      }
+  const onValid = (data) => {
+    const { id, pwd, email, phone } = data;
+    axios
+      .post("http://localhost:5000/user/signup", { id, pwd, email, phone, })
+      .then((response) => {
+        console.log(response.data, "onvalid");
+        navigate("/");
+      })
+      .catch((error) => {
+        console.log(error.data, "onInvalid");
+      });
+  };
 
     return (<div>
         <div className='container'>
@@ -33,18 +30,18 @@ function SignupCont1() {
                     <div className="signup1_side">
                         <h4>03<br/>개인정보입력</h4>
                     </div>
-                    <form onSubmit={signupSubmit}>
+                    <form onSubmit={handleSubmit(onValid)}>
                         <div className='signup1_body'>
                             <h4>| &nbsp; 필수 입력 사항</h4>
                             <p><br/>아이디</p>
-                            <input type="text" id="id" placeholder="아이디를 입력해주세요"/>
+                            <input type="text" id="id" name="id" placeholder="아이디를 입력해주세요"/>
                             <p><br/>비밀번호</p>
-                            <input type="password" id="pwd" placeholder="비밀번호를 입력해주세요"/><br/>
+                            <input type="password" id="pwd" name="pwd" placeholder="비밀번호를 입력해주세요"/><br/>
                             <input type="password" className="pwd_check" id="pwd_check" placeholder="비밀번호를 한번 더 입력해주세요"/>
                             <p><br/>이메일</p>
-                            <input type="text" id="email" placeholder="이메일 주소를 입력해주세요"/>
+                            <input type="text" id="email" name="email" placeholder="이메일 주소를 입력해주세요"/>
                             <p><br/>휴대폰</p>
-                            <input type="text" id="phone" placeholder="연락처를 입력해주세요"/>
+                            <input type="text" id="phone" name="phone" placeholder="연락처를 입력해주세요"/>
                             <hr/>
                             <button type="submit" class="btn btn-warning">가입하기</button>
                         </div>

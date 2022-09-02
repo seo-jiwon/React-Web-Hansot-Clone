@@ -21,7 +21,7 @@ function Header() {
                 </div>
 
                 <nav class="navbar navbar-expand-md bg-light navbar-light">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src={require('../images/logo.png')} alt="Chicago" />
                     </a>
 
