@@ -1,0 +1,26 @@
+.main1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content : center;
+}
+
+.main1_cont2 {
+    margin-left: 30px;
+}
+
+.main1_figcap {
+    font-size: 23px;
+    font-weight: 550;
+    background-color: #EFEEEE;
+    padding: 20px;
+}
+
+.linkBtn {
+    height: 25px;
+}
+
+.main1_span {
+    margin-left: 5px;
+    font-size: 13px;
+    color: #665B59;
+}
