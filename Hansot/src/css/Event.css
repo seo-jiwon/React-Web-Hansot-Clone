@@ -1,0 +1,53 @@
+.event {
+    background-color: #EAEAEA;
+}
+
+.event_header {
+    background-color: white;
+    margin-top: 180px;
+    height: 110px;
+    padding: 30px;
+}
+
+.event_cont1 img, .event_cont2 img, .event_cont3 img {
+    width: 100%;
+}
+
+.event_fig {
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 420px;
+    width: 350px;
+    border-bottom: 4px solid black;
+}
+
+.event_figcap {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.event_figcap p {
+    font-size: 15px;
+}
+
+.event_figcap p b {
+    font-size: 20px;
+}
+
+.event_figcap p p {
+    color: #c4c4c4;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.event_cont1 {
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.event_cont2 {
+    margin-top: 50px;
+    margin-left: 30px;
+}

@@ -1,0 +1,31 @@
+.signup1 {
+    margin-top: 180px;
+    background-color: white;
+    padding: 10px;
+}
+
+.signup1_side {
+    float: left;
+    width: 30%;
+    height: 650px;
+}
+
+.signup1_body {
+    height: 700px;
+}
+
+.signup1_body input {
+    width: 400px;
+    height: 45px;
+    border: 1px solid #EAEAEA;
+}
+
+.pwd_check {
+    margin-top: 5px;
+}
+
+.signup1_body button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}

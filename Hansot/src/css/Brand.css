@@ -1,0 +1,36 @@
+
+/*브랜드 스토리*/
+.brand_visual_wrap {overflow: hidden; position: relative; height: 750px; width: 100%; z-index: 1; background-color: #fff;}
+
+.bs_wrap .bs_cont {max-width:1170px; margin:0 auto; width:100%;}
+.bs_wrap .bs_cont .bs_txt p {margin-top:25px; line-height:27px; font-size:17px;}
+.bs_wrap .bs_cont .bs_txt p:first-child {margin-top:0;}
+
+/*브랜드 타이틀*/
+.brand .menu_tit {margin:0 auto; padding-bottom:7px; width:1170px; font-weight:bold; color:#a99e92; font-size:20px;}
+
+/*브랜드 스토리 > section01*/
+.section_01 {background-color: #e2ddd7; padding:77px 0 100px 0; box-sizing: border-box;}
+.brand_story .section_01 {height:665px;}
+.section_01 .bs_cont {display:table; width:100%;}
+.section_01 h2.h2_tit {font-weight:normal; width:570px; font-size:46px;}
+.section_01 h2.h2_tit, .section_01 .bs_txt {display:table-cell; vertical-align: top;}
+.section_01 .bs_cont .bs_txt {padding-top:3px; width:600px; word-break: keep-all;}
+/*브랜드 스토리 > section02*/
+.section_02, .section_03 {background-color: #fff;}
+.section_02 .bs_cont {padding-top:70px; position:relative; overflow:hidden; width:100%;}
+.section_02 .bs_cont div.bs_img, .section_02 .bs_cont .bs_txt_wrap {float:left;}
+.section_02 .bs_cont div.bs_img {width:500px; height:600px;}
+.section_02 .bs_cont div.bs_img img {max-width:100%; width:100%; height:auto;}
+.section_02 .bs_cont .bs_txt_wrap {width:600px; height:620px; margin-left:70px; box-sizing: border-box; border-bottom:15px solid #373737;}
+/*브랜드 스토리 > section03*/
+.section_03 .bs_cont  {margin:70px auto 100px auto; position:relative; overflow:hidden;}
+.section_03 .bs_cont div.bs_img, .section_02 .bs_cont .bs_txt_wrap {float:left;}
+.section_03 .bs_cont div.bs_img {float:right; width:600px; height:500px;}
+.section_03 .bs_cont .bs_txt_wrap {width:500px; height:500px; margin-right:70px; box-sizing: border-box;}
+
+/*브랜드 스토리 > section04*/
+.section_04 {position:relative; width:100%; height:730px; background: url(../images/brandstory4.jpg) 50% 50% no-repeat; background-size: cover;}
+.section_04 .bs_cont {position:relative; padding:130px 0; box-sizing: border-box; height:730px; color:#fff;}
+.section_04 .bs_cont h3.h3_tit {color:#fff; padding-top:0;}
+.section_04 .bs_cont h3.h3_tit:after {content:''; background-color: #fff;}

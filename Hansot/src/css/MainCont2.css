@@ -1,0 +1,62 @@
+.main2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content : center;
+}
+
+.main2_1_fig {
+    background-color: #f2c000;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    height: 410px;
+    width: 370px;
+}
+
+.main2_fig div {
+    width: 50px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.main2_1_figcap {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.main2_fig {
+    height: 410px;
+    background-color: #665B59;
+}
+
+.main2_figcap {
+    font-size: 22px;
+    font-weight: 550;
+    background-color: #EFEEEE;
+    padding: 20px;
+}
+
+.main2_cont2, .main2_cont3 {
+    margin-left: 30px;
+}
+
+.main2_cont2 img, .main2_cont3 img {
+    width: 380px;
+    height: 230px;
+}
+
+.main2_cont2 figcaption p, .main2_cont3 figcaption p {
+    margin-bottom: 35px;
+}
+
+.main2_cont2 figcaption img, .main2_cont3 figcaption img {
+    height: 25px;
+    width: 50px;
+}
+
+.main2_span {
+    margin-left: 5px;
+    font-size: 13px;
+    color: #665B59;
+}

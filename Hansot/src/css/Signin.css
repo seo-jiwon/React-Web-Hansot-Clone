@@ -1,0 +1,81 @@
+
+/*login_page 공통*/
+.login .login_page {position:relative; overflow: hidden; height:auto;}
+.login .login_page .login_wrap, 
+.login .login_page .join_select {height:560px; background-color: #fff; box-sizing: border-box; vertical-align: top;}
+/*login_page*/
+.login .login_page .login_wrap {position:relative; width:57.5%; margin:0 4.5% 0 0;  padding:100px 0 60px 0; box-sizing: border-box;}
+.login .login_page .login_wrap:before {content: ''; width:100%; height:6px; background-color:#f2c000; display:inline-block; position:absolute; left:0; top:0;}
+.login .login_page .login_wrap .login_formcont {width:473px; margin:0 auto;}
+.login .login_page .login_wrap h2.h2_tit {position:relative;}
+.login .login_page .login_wrap h2.h2_tit:before {content: ''; width:27px; height:32px; background: url(../images/icon_login.png) left top no-repeat; background-size: 27px 32px; margin:0 20px -2px 0; display:inline-block;}
+
+.login .login_page .login_wrap .area_login {margin-top:50px;}
+.login .login_page .login_wrap .in_box .form {width:100%;}
+.login .login_page .login_wrap .in_box .form input {width:100%;}
+.area_check {position:relative; width:100%; height:43px;}
+.area_check span {display:block; float:left; width:47%; margin-top:20px;}
+.area_check span.find_idpw {float:right; text-align:right;} 
+.area_check span.find_idpw > a {color:#5c5953; background: url(../images/icon_search.png) left 5px no-repeat; padding-left:20px; position:relative; transition-duration: 0.3s; background-size: 14px 14px;}
+/* .area_check span.find_idpw > a:hover {color:#f2c000; background: url(../images/icon_search_hover.png) left 4px no-repeat; background-size: 14px 14px;} */
+.area_check span.find_idpw > a:hover:before {content:''; position:absolute; right:0; bottom:0; width:88%; height:1px; background-color:#f2c000;}
+.login_page form.login_form .btn_wrap {margin-top:83px; position:relative;}
+.login_page form.login_form .btn_wrap .btn.btn_st02 {width:100%;}
+.login_page form.login_form .btn_wrap .result_comment.false {position:absolute; left:0; top:-45px;}
+.result_comment.false:before {
+   /* background: url(../images/icon_login_comment.png) left top no-repeat; */
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;     
+    background-position:0;
+    margin: 0 0 -3px 0;
+    padding: 0 8px 0 0;
+   background-size: 16px 16px;}
+
+/*login_page join_select*/
+.login .login_page .join_select {position:absolute; top:0; left:60%; width:40%; padding:296px 0 60px 0; box-sizing: border-box; text-align:center;}
+.login .login_page .join_select > span {display:block; position:absolute; left:0; top:0; width:100%;}
+.login .login_page .join_select > span img {height:100%;}
+.login .login_page .join_select .join_formcont {width:270px; margin:0 auto;}
+.login .login_page .join_select h3.h3_tit {font-weight:normal; font-size:24px;}
+.login .login_page .join_select p.txt {margin-top:22px; line-height:170%;}
+.join_select .btn_wrap {margin-top:44px;}
+.join_select .btn_wrap .btn.btn_st02 {width:100%;}
+
+
+@media all and (max-width:1023px){
+   /*login_page 공통*/
+   .content.login.bg_none {background-color: #fff;}
+   .login .login_page .login_wrap, 
+   .login .login_page .join_select {position:relative; width:100%; left:0; top:0;}
+   .login .login_page .login_wrap,
+   .login .login_page .join_select
+    {width:100%; padding:34px 15px 10px 15px; height:auto;}
+   /*login_page*/  
+   .login .login_page .login_wrap .login_formcont {width:100%;}
+   .login .login_page .login_wrap:before {display:none;}
+   .login .login_page .login_wrap h2.h2_tit:before {content: ''; width:20px; height:24px; background-size: 20px 24px; margin-right:8px;}
+   .login .login_page .join_select h3.h3_tit {font-size:15px;}
+   .login .login_page .login_wrap .area_login {margin-top:28px;}
+   .login_page form.login_form .btn_wrap .result_comment.false {top:-32px;}
+   .login_page form.login_form .btn_wrap .result_comment.false:after{display:none;}
+
+   /*login_page join_select*/
+   .login .login_page .join_select {padding:28px 15px 20px 15px; margin-top:20px; border-top:1px solid #eeecec;}
+   .login .login_page .join_select .join_formcont {width:100%;}
+   .login .login_page .join_select > span,
+   .login .login_page .join_select p.txt {display:none;}
+   .join_select .btn_wrap {margin-top:20px;}
+   /*login_page button*/
+   .login_page form.login_form .btn_wrap {margin-top:65px;}
+}
+
+.signin {
+   background-color: #EAEAEA;
+}
+
+.signinBtn_div {
+   margin-left: 150px;
+   margin-top: 10px;
+}

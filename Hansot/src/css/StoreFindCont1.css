@@ -1,0 +1,72 @@
+.sf {
+    background-color: #EAEAEA;
+}
+
+.sf1 {
+    margin-top: 180px;
+    background-color: white;
+    padding: 30px;
+}
+
+.map_div {
+    background-color: white;
+}
+
+.area_search input {
+    width: 300px;
+}
+
+.area_search {
+    margin-bottom: 30px;
+}
+
+.as1, .as2, .as3 {
+    margin-right: 10px;
+}
+
+.as1 button, .as2 button {
+    margin-left: 10px;
+}
+
+.store_info1 {
+    margin-top: 30px;
+}
+
+.store_info2 {
+    margin-top: 80px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.new_header {
+    width: 25%;
+    margin-left: 20px;
+}
+
+.new_store1 {
+    margin-right: 30px;
+}
+
+.placeBtn {
+    float: right;
+}
+
+.newstore_cont {
+    margin-top: 25px;
+}
+
+.new_store1, .new_store2 {
+    width: 35%;
+}
+
+.new_store1 p, .new_store2 p {
+    text-align: right;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+}
+
+.new_store1 h6, .new_store2 h6 {
+    font-size: 15px;
+}

@@ -1,0 +1,78 @@
+.menu {
+    background-color: #EAEAEA;
+}
+
+.menu_info {
+    height: 4600px;
+}
+
+.hansot_menu {
+    margin-top: 180px;
+    background-color: white;
+    padding: 30px;
+    height: 120px;
+}
+
+.hansot_menu button {
+    margin-right: 10px;
+}
+
+.aside {
+    width: 200px;
+    margin: 0;
+    float: left;
+    height: 4600px;
+}
+
+#list {
+    margin-top: 30px;
+}
+
+#pet_img {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.keyword {
+    margin-top: 20px;
+}
+
+.menulist {
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.menulist .SmallCategory{
+    font-size: 25px;
+}
+
+.menulist .LargeCategory {
+    color:#909090;
+    font-size:13px;
+}
+
+#menu_name{
+    font-weight: bold;
+    text-align: center;
+    margin-right: 30px;
+}
+
+#menu_price{
+    text-align: center;
+    color:#909090;
+    margin-right: 30px;
+}
+
+.menulist img {
+    width: 260px;
+    height: 240px;
+}
+
+.SmallCategory {
+    border-bottom: 4px solid rgb(39, 39, 39);
+}
+
+.testtest {
+    margin-bottom: 500px;
+}

@@ -1,0 +1,51 @@
+footer {
+    background-color: #f2c000;
+    position:relative; 
+    width:100%;
+    /* height:310px; */
+    text-align: center;
+    padding: 1px;
+    margin-top: 30px;
+    margin-bottom:0;
+    /* background-color: #f2c000;
+    position:absolute; 
+    bottom: 0; */
+}
+
+.f_menu{
+    list-style:none;
+}
+
+.f_menu li{
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.f_info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.sns{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.insta{
+    width: 40px;
+    height: 40px;
+}
+
+.face{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
